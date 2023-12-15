@@ -1,0 +1,28 @@
+@media print {
+    body {
+        font-family: serif;
+    }
+
+    main {
+        page-break-inside: avoid;
+    }
+
+    footer {
+        text-align: left;
+        page-break-before: always;
+    }
+
+    .print-reference {
+        font-family: serif;
+    }
+
+    .image-container img,
+    video,
+    iframe {
+        max-width: 100%;
+        height: auto;
+        display: inline-block;
+        margin-right: 0;
+        float: none;
+    }
+}

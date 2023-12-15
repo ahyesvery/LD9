@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.image-container img,
+video,
+iframe {
+    width: 100%;
+    height: auto;
+    display: block;
+}
